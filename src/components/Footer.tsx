@@ -3,12 +3,7 @@
  * Elegant footer with brand info, links, and contact details.
  */
 
-import { Mail, Phone, Linkedin, Instagram} from "lucide-react";
-
-const socialLinks = [
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-];
+import { Mail, Phone, } from "lucide-react";
 
 const navLinks = [
   { label: "Properties", href: "#properties" },
@@ -89,21 +84,9 @@ export default function Footer() {
             <h4 className="font-display text-sm font-semibold text-gold uppercase tracking-[0.15em] mb-5">
               Follow Us
             </h4>
-            <div className="flex items-center gap-3">
-              {socialLinks.map((social) => {
-                const Icon = social.icon;
-                return (
-                  <a
-                    key={social.label}
-                    href={social.href}
-                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white/60 hover:bg-gold hover:text-navy transition-all duration-300"
-                    aria-label={social.label}
-                  >
-                    <Icon size={16} />
-                  </a>
-                );
-              })}
-            </div>
+           <p className="font-body text-sm text-white/60 leading-relaxed">
+  Social channels coming soon.
+</p>
           </div>
         </div>
 
