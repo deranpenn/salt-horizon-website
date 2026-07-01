@@ -3,7 +3,7 @@
  * Elegant footer with brand info, links, and contact details.
  */
 
-import { Mail, Phone, Linkedin, Instagram } from "lucide-react";
+import { Mail, Phone, Linkedin, Instagram} from "lucide-react";
 
 const socialLinks = [
   { icon: Instagram, href: "#", label: "Instagram" },
